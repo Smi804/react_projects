@@ -27,7 +27,7 @@ function App() {
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
       <div className="flex flex-col min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
         {/* Header */}
-        <Header /> {/* Use the Header component here */}
+        <Header /> 
 
         {/* Main content */}
         <div className="w-full px-4 lg:px-16 mt-4">
